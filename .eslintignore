@@ -1,0 +1,5 @@
+dist
+config
+coverage
+doc
+webpack.*.js

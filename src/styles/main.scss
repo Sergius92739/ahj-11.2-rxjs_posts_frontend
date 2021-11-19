@@ -1,0 +1,140 @@
+@import "vars.scss";
+@import "mixins.scss";
+@import "null.scss";
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: $neutral-base;
+  overflow: auto;
+}
+
+.d_none {
+  display: none;
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.update {
+  width: 100%;
+  position: fixed;
+  background-color: $neutral-base;
+  padding: 10px 0;
+  box-shadow: $b_sh-light;
+  &__button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background-color: #2e8b57;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    box-shadow: $b_sh-light;
+  }
+}
+
+.posts {
+  width: 60%;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+  .post {
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: $b_sh-light;
+    &:nth-child(n+2) {
+      margin-top: 40px;
+    }
+    &__image img {
+      box-shadow: $b_sh-light;
+      border-radius: 10px;
+
+    }
+    &__header {
+      display: flex;
+      .post__avatar {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-image: url('https://cdn.fakercloud.com/avatars/kuldarkalvik_128.jpg');
+      }
+      .post__info {
+        margin-left: 20px;
+        .post__author {
+          font-size: 1.4rem;
+          font-weight: bold;
+          margin-top: 10px;
+        }
+        .post__date {
+          margin-top: 10px;
+        }
+      }
+    }
+    &__title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 40px 0;
+    }
+    &__image img {
+      width: 100%;
+    }
+    &__comments {
+      margin-top: 20px;
+      .comments__title {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+      .comments__list {
+        margin-top: 15px;
+      }
+    }
+    .comments {
+      &__item {
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        box-shadow: $b_sh-light;
+        display: flex;
+        &:nth-child(n+2) {
+          margin-top: 20px;
+        }
+      }
+      &__avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-image: url('https://cdn.fakercloud.com/avatars/y2graphic_128.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &__content {
+        margin-left: 20px;
+        flex: 1;
+        .comments__info {
+          display: flex;
+          justify-content: space-between;
+          .comments__author {
+            font-weight: bold;
+          }
+        }
+      }
+      &__text {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+

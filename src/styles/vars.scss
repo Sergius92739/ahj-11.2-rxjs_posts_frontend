@@ -1,0 +1,58 @@
+@import 'fonts.scss';
+
+//<ПЕРЕМЕННЫЕ>
+$minWidth: 320px;
+$maxWidth: 1920;
+$maxWidthContainer: 1170;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+//</ПЕРЕМЕННЫЕ>
+
+// Fonts
+
+$fontFamily: 'Inter', sans-serif;
+
+
+// Size
+$mainFontColor           : #101010;
+$mainFontSize            : 18px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.4;
+
+$desktopWidth            : 1280px;
+$smDesktopWidth          : 1024px;
+$tableWidth              : 768px;
+$smTableWidth            : 640px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+/*
+  All colors taken from:
+  https://github.com/vedees/uimini
+*/
+
+// Main color
+$default-color           : #ffffff;
+$primary-color           : #444ce0;
+$success-color           : #26de81;
+$danger-color            : #fc5c65;
+$warning-color           : #fed330;
+$light-color             : #999999;
+$purple-color            : #8854d0;
+
+// Neutral Color
+$neutral-primary         : #303133;
+$neutral-regular         : #606266;
+$neutral-secondary       : #909399;
+$neutral-placeholder     : #C0C4CC;
+$neutral-base            : #DCDFE6;
+$neutral-light           : #E4E7ED;
+$neutral-lighter         : #EBEEF5;
+$neutral-lightex         : #F2F6FC;
+
+// box-shadow
+$b_sh-light              :0 2px 5px 0 rgba(0, 0, 0, 0.6%), 0 2px 10px 0 rgba(0, 0, 0, 0.6%);
+$b-sh-base               :0 10px 20px #000;
+$b-sh                    :0 0 0 3px #000;
