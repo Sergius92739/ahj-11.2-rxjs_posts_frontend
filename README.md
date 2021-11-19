@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/4y48vuwxc4yb33xx/branch/master?svg=true)](https://ci.appveyor.com/project/Sergius92739/ahj-11-2-rxjs-posts-frontend/branch/master)
 
-#### Deployment: <a href="">Github Pages</a>
+#### Deployment: <a href="https://sergius92739.github.io/ahj-11.2-rxjs_posts_frontend/">Github Pages</a>
 #### Backend: <a href="https://github.com/Sergius92739/ahj-11.2-rxjs_posts_backend">Repository</a>
 #### Server: <a href="https://ahj-11-2-sergius-rxjs-posts.herokuapp.com/">Heroku</a>
 
