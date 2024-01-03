@@ -6,7 +6,7 @@ import Comments from './Comments';
 
 export default class Api {
   constructor() {
-    this.url = 'https://ahj.sergem.xyz/';
+    this.url = 'https://ahj-11-2.sergem.xyz/';
     this.updateBtn = document.querySelector('.update__button');
   }
 

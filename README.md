@@ -2,7 +2,7 @@
 
 #### Deployment: <a href="https://sergius92739.github.io/ahj-11.2-rxjs_posts_frontend/">Github Pages</a>
 #### Backend: <a href="https://github.com/Sergius92739/ahj-11.2-rxjs_posts_backend">Repository</a>
-#### Server: <a href="https://ahj.sergem.xyz/">Облачный сервер</a>
+#### Server: <a href="https://ahj-11-2.sergem.xyz/">Облачный сервер</a>
 
 ---
 
